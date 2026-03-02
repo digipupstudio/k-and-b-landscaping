@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook } from "lucide-react";
+import kbLogoFull from "@/assets/kb-logo-full.png";
 
 const Footer = () => (
   <footer className="bg-kb-black border-t-[3px] border-primary">
@@ -7,9 +8,8 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Col 1 */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <span className="text-primary text-xl">🌿</span>
-            <span className="font-display text-2xl text-kb-white">K&B LANDSCAPING</span>
+          <div className="mb-4">
+            <img src={kbLogoFull} alt="K&B Landscaping" className="h-16 w-auto" />
           </div>
           <p className="text-kb-gray text-sm">Lawn Maintenance & Snow Removal LLC</p>
           <p className="text-primary italic text-sm mt-1">Family-Run Since Day One</p>
