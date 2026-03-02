@@ -14,7 +14,9 @@ const Home = () => (
   <div>
     {/* HERO */}
     <section className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-5 mix-blend-luminosity" />
+      <div className="absolute inset-0 lg:hidden">
+        <img src={lawnPatio} alt="" className="w-full h-full object-cover opacity-20" />
+      </div>
       <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center pt-20">
         <div className="relative z-10">
           <div className="animate-hero-1">

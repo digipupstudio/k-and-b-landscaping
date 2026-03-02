@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
+import kbLogoFull from "@/assets/kb-logo-full.png";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -35,11 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto h-full flex items-center justify-between px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-primary text-2xl">🌿</span>
-          <div className="leading-none">
-            <span className="font-display text-3xl text-kb-white tracking-wider">K&B</span>
-            <span className="block font-heading text-[11px] text-primary tracking-[0.15em] uppercase">Landscaping</span>
-          </div>
+          <img src={kbLogoFull} alt="K&B Landscaping" className="h-12 w-auto" />
         </Link>
 
         {/* Desktop nav */}
@@ -76,7 +73,7 @@ const Navbar = () => {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="lg:hidden fixed inset-0 top-[68px] bg-kb-black/98 backdrop-blur-xl z-40">
+        <div className="lg:hidden fixed inset-0 top-[68px] bg-kb-black backdrop-blur-none z-40">
           <div className="flex flex-col p-6 gap-4">
             {navLinks.map((link) => (
               <Link

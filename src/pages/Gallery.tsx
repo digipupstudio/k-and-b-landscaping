@@ -10,13 +10,17 @@ import mowersFleet from "@/assets/mowers-fleet.png";
 import brushClearing from "@/assets/brush-clearing.png";
 import excavatorWork from "@/assets/excavator-work.png";
 import kbTrailer from "@/assets/kb-trailer.png";
-import mowersLineup from "@/assets/mowers-lineup.png";
 import catPlow from "@/assets/cat-plow.png";
 import kubotaSnowwolf from "@/assets/kubota-snowwolf.png";
 import excavatorLoader from "@/assets/excavator-loader.png";
 import greenAvant from "@/assets/green-avant.png";
 import jcbSnowwolf from "@/assets/jcb-snowwolf.png";
 import jcbSide from "@/assets/jcb-side.png";
+import teamPhoto from "@/assets/team-photo.png";
+import trailerWrap from "@/assets/trailer-wrap.png";
+import kubotaLoader from "@/assets/kubota-loader.png";
+import yanmarExcavator from "@/assets/yanmar-excavator.png";
+import mowersLawn from "@/assets/mowers-lawn.png";
 
 const galleryImages = [
   { src: lawnPatio, alt: "Landscaped patio with striped lawn", category: "landscaping" },
@@ -27,13 +31,17 @@ const galleryImages = [
   { src: excavatorWork, alt: "Excavator work on property", category: "landscaping" },
   { src: snowWolf, alt: "SnowWolf commercial equipment", category: "snow" },
   { src: kbTrailer, alt: "K&B Landscaping trailer", category: "landscaping" },
-  { src: mowersLineup, alt: "Mowers lineup", category: "lawn" },
   { src: catPlow, alt: "CAT skid steer with plow", category: "snow" },
   { src: kubotaSnowwolf, alt: "Kubota with SnowWolf", category: "snow" },
   { src: excavatorLoader, alt: "Excavator and loader", category: "landscaping" },
   { src: greenAvant, alt: "Green Avant loader", category: "landscaping" },
   { src: jcbSnowwolf, alt: "JCB with SnowWolf", category: "snow" },
   { src: jcbSide, alt: "JCB skid steer side view", category: "snow" },
+  { src: teamPhoto, alt: "K&B team with equipment fleet", category: "lawn" },
+  { src: trailerWrap, alt: "K&B branded trailer wrap", category: "landscaping" },
+  { src: kubotaLoader, alt: "Kubota R540 wheel loader", category: "landscaping" },
+  { src: yanmarExcavator, alt: "Yanmar excavator on trailer", category: "landscaping" },
+  { src: mowersLawn, alt: "Full mower fleet lineup on lawn", category: "lawn" },
 ];
 
 const categories = ["all", "lawn", "landscaping", "snow", "cleanup"];
@@ -76,7 +84,7 @@ const Gallery = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {filtered.map((img, i) => (
-              <ScrollReveal key={`${img.src}-${i}`}>
+              <ScrollReveal key={`${img.alt}-${i}`}>
                 <div className="gallery-item aspect-[4/3]" onClick={() => setLightboxIdx(i)}>
                   <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
                   <div className="gallery-overlay">
