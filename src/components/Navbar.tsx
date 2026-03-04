@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="container mx-auto h-full flex items-center justify-between px-4">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <img src={kbLogoFull} alt="K&B Landscaping" className="h-12 w-auto" />
+            <img src={kbLogoFull} alt="K&B Lawn Maintenance and Snow Removal LLC." className="h-12 w-auto" />
           </Link>
 
           {/* Desktop nav */}
