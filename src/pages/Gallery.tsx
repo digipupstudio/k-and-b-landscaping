@@ -62,6 +62,51 @@ const galleryImages = [
   { src: kubotaLoader, alt: "Kubota R540 wheel loader", category: "Light Excavation" },
   { src: yanmarExcavator, alt: "Yanmar excavator on trailer", category: "Light Excavation" },
   { src: mowersLawn, alt: "Full mower fleet lineup on lawn", category: "Mowing" },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7efd2591b1c74492a4bb4c2abe143c85?format=webp&width=800&height=1200",
+    alt: "Excavator clearing snow and brush",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F14e5175458544bc3aa34805bea5cb68c?format=webp&width=800&height=1200",
+    alt: "Overgrown brush before clearing",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fc23fa863ac544f00acb917277df096c1?format=webp&width=800&height=1200",
+    alt: "Brush cleared by shed",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe159f39405634072963499149ec5ef57?format=webp&width=800&height=1200",
+    alt: "Excavator arm with attachment",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fde08d78d6ff847b490f3696767d9d2d6?format=webp&width=800&height=1200",
+    alt: "Cleared field with excavator in background",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ff7e51ff360114626a17d86255a68492c?format=webp&width=800&height=1200",
+    alt: "Brush pile and cleared area",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa38ff360d0784f6ca80f6b4096266453?format=webp&width=800&height=1200",
+    alt: "View from equipment clearing brush",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd2a1485470d24e0c951fc1df5c66558f?format=webp&width=800&height=1200",
+    alt: "Cleared path through trees",
+    category: "Forestry and Flail mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9209c0a8cb4a490eb6b1f793fc77bbc3?format=webp&width=800&height=1200",
+    alt: "Green Avant equipment with mower attachment",
+    category: "Forestry and Flail mowing"
+  },
 ];
 
 const categories = [
