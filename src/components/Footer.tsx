@@ -9,11 +9,10 @@ const Footer = () => (
         {/* Col 1 */}
         <div>
           <div className="mb-4">
-            <img src={kbLogoFull} alt="K&B Landscaping" className="h-16 w-auto" />
+            <img src={kbLogoFull} alt="K&B Lawn Maintenance and Snow Removal LLC." className="h-16 w-auto" />
           </div>
-          <p className="text-kb-gray text-sm">Lawn Maintenance & Snow Removal LLC</p>
+          <p className="text-kb-gray text-sm">East Kingston, NH 03827</p>
           <p className="text-primary italic text-sm mt-1">Family-Run Since Day One</p>
-          <p className="text-kb-gray text-sm mt-2">East Kingston, NH 03827</p>
         </div>
 
         {/* Col 2 */}
@@ -58,7 +57,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="bg-foreground/95 py-4 text-center">
-      <p className="text-kb-gray text-xs font-body">© 2025 K&B Landscaping LLC · East Kingston, NH · DESIGN · BUILD · MAINTAIN</p>
+      <p className="text-kb-gray text-xs font-body">© 2025 K&B Lawn Maintenance and Snow Removal LLC. · East Kingston, NH · DESIGN · BUILD · MAINTAIN</p>
     </div>
   </footer>
 );

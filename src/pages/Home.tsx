@@ -22,8 +22,8 @@ const Home = () => (
           <div className="animate-hero-1">
             <SectionLabel text="East Kingston, NH" />
           </div>
-          <h1 className="font-display text-[56px] md:text-[96px] text-kb-white leading-[0.95] animate-hero-2">
-            K&B<br />LANDSCAPING
+          <h1 className="font-display text-[42px] md:text-[64px] lg:text-[72px] text-kb-white leading-[1.05] animate-hero-2">
+            K&B LAWN MAINTENANCE<br />AND SNOW REMOVAL LLC.
           </h1>
           <p className="font-heading text-lg text-primary tracking-[0.3em] mt-4 animate-hero-3">
             DESIGN · BUILD · MAINTAIN
@@ -51,7 +51,7 @@ const Home = () => (
           <div className="relative">
             <img
               src={lawnPatio}
-              alt="Beautiful landscaped property with striped lawn by K&B Landscaping"
+              alt="Beautiful landscaped property with striped lawn by K&B Lawn Maintenance and Snow Removal LLC."
               className="rounded-sm shadow-2xl object-cover w-full h-[500px]"
               style={{ clipPath: "polygon(8% 0, 100% 0, 100% 100%, 0 100%)" }}
             />
@@ -92,18 +92,18 @@ const Home = () => (
       <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <ScrollReveal>
           <div className="relative">
-            <img src={kbTrailer} alt="K&B Landscaping trailer wrap" className="rounded-sm border-[3px] border-primary w-full object-cover" />
+            <img src={kbTrailer} alt="K&B Lawn Maintenance and Snow Removal LLC. trailer wrap" className="rounded-sm border-[3px] border-primary w-full object-cover" />
             <p className="font-display text-xl text-green-dark mt-3 text-center">DESIGN · BUILD · MAINTAIN</p>
           </div>
         </ScrollReveal>
         <ScrollReveal>
-          <SectionLabel text="About K&B" />
+          <SectionLabel text="About Us" />
           <h2 className="font-display text-4xl md:text-[52px] text-foreground leading-[1.05]">FAMILY-BUILT.<br />COMMUNITY TRUSTED.</h2>
           <p className="font-body text-kb-gray mt-6 leading-[1.8]">
-            K&B Landscaping is a family-run business founded by Keith, serving East Kingston, NH and the surrounding seacoast region. With a commitment to quality craftsmanship and honest service, we treat every property like our own.
+            K&B Lawn Maintenance and Snow Removal LLC. is a family-run business founded by Keith, serving East Kingston, NH and the surrounding seacoast region. With a commitment to quality craftsmanship and honest service, we treat every property like our own.
           </p>
           <p className="font-body text-kb-gray mt-4 leading-[1.8]">
-            Whether it's a weekly lawn maintenance contract, a full landscape installation, or emergency snow removal at 3am — K&B shows up ready to work.
+            Whether it's a weekly lawn maintenance contract, a full landscape installation, or emergency snow removal at 3am — K&B Lawn Maintenance and Snow Removal LLC. shows up ready to work.
           </p>
           <p className="font-heading text-lg text-green-dark mt-6">
             "We don't just maintain properties — we take pride in them."

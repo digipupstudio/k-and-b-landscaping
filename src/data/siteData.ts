@@ -75,12 +75,12 @@ export const services = [
 
 export const testimonials = [
   {
-    text: "K&B has been maintaining our commercial property for 3 years. They always show up on time and the work is consistently excellent. Keith and his crew are true professionals.",
+    text: "K&B Lawn Maintenance and Snow Removal LLC. has been maintaining our commercial property for 3 years. They always show up on time and the work is consistently excellent. Keith and his crew are true professionals.",
     name: "Michael T.",
     title: "Commercial Property Owner · East Kingston, NH",
   },
   {
-    text: "We hired K&B for a full backyard landscaping project and couldn't be happier. They designed a beautiful space and had it done ahead of schedule. Family business that really cares.",
+    text: "We hired K&B Lawn Maintenance and Snow Removal LLC. for a full backyard landscaping project and couldn't be happier. They designed a beautiful space and had it done ahead of schedule. Family business that really cares.",
     name: "Sarah L.",
     title: "Homeowner · Exeter, NH",
   },
