@@ -357,6 +357,31 @@ const galleryImages = [
     alt: "Excavated area for building foundation",
     category: "Light Excavation"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ff2c05812b9a04c848d6fa0ba39c93b46?format=webp&width=800&height=1200",
+    alt: "Freshly planted arborvitae row with dark mulch",
+    category: "Plantings and pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F79fbcf588e0e4d4b83b92d9936f4184c?format=webp&width=800&height=1200",
+    alt: "New landscape installation with trees and soil preparation",
+    category: "Plantings and pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fad4b719e18c24ca89d453d93707969a6?format=webp&width=800&height=1200",
+    alt: "Large balled and burlapped tree ready for planting",
+    category: "Plantings and pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fdfb854e2b83c4deda56cc8029477261b?format=webp&width=800&height=1200",
+    alt: "Expertly pruned tall privacy hedge along driveway",
+    category: "Plantings and pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F695a68b978e6465a9af0c3ffda2d21c2?format=webp&width=800&height=1200",
+    alt: "Ornamental tree with vibrant pink and purple foliage",
+    category: "Plantings and pruning"
+  },
 ];
 
 const categories = [
