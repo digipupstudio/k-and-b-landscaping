@@ -427,6 +427,46 @@ const galleryImages = [
     alt: "Detailed striping pattern on front yard lawn",
     category: "Mowing"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F8abd48d6c814466ebdfbd1891e4d19d8?format=webp&width=800&height=1200",
+    alt: "SnowWolf plow on equipment",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F81fc4fb7f9d540c68be5a1e8da3ad41b?format=webp&width=800&height=1200",
+    alt: "Fleet of trucks and tractor with plows",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F22da6e08996d44498fd3884e42b2175d?format=webp&width=800&height=1200",
+    alt: "CAT loader with SnowWolf attachment in snow",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ffe7dc01419004c49a7a984927db579f0?format=webp&width=800&height=1200",
+    alt: "JCB skid steer with SnowWolf attachment",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0f19dc117c0244498098be0ef7ac5df4?format=webp&width=800&height=1200",
+    alt: "JCB skid steer with SnowWolf attachment (side view)",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F2d255bd7e1a84ddc81f576ab53aeba8e?format=webp&width=800&height=1200",
+    alt: "Kubota tractor with SnowWolf attachment on trailer",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd7456984010943caab4cc205cc058331?format=webp&width=800&height=1200",
+    alt: "CAT loader pushing snow",
+    category: "Snow equipment"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7f0cfd3b27b74bde9387cded1ebf82eb?format=webp&width=800&height=1200",
+    alt: "Tractor loading salt into truck with plow",
+    category: "Snow equipment"
+  },
 ];
 
 const categories = [
