@@ -562,8 +562,33 @@ const categories = [
   "Forestry mulching",
   "Hardscapes",
   "Plantings and pruning",
+  "Shrub pruning",
   "Mowing",
   "Snow equipment"
+];
+
+const beforeAfterPairs = [
+  {
+    id: "shrub-pruning-1",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fe677b7703bde405da81429ea4e212ce3?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fe251143bdee8488a84b534959285d83e?format=webp&width=800&height=1200",
+    title: "Shrub Pruning and Installation",
+    category: "Shrub pruning"
+  },
+  {
+    id: "shrub-pruning-2",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb6d964fd51274251a199e926ae500a5c?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0c033fe0d4654de0817b95dc508b6440?format=webp&width=800&height=1200",
+    title: "Professional Shrub Trimming",
+    category: "Shrub pruning"
+  },
+  {
+    id: "shrub-pruning-3",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb924803ea8834e6c8b7a7ec31876bb6c?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F37ce435943cb44e8af68195123da27b1?format=webp&width=800&height=1200",
+    title: "Landscape Shrub Installation",
+    category: "Shrub pruning"
+  }
 ];
 
 const Gallery = () => {
@@ -571,6 +596,7 @@ const Gallery = () => {
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
 
   const filtered = filter === "all" ? galleryImages : galleryImages.filter(i => i.category === filter);
+  const filteredBeforeAfter = filter === "all" ? beforeAfterPairs : beforeAfterPairs.filter(p => p.category === filter);
 
   return (
     <div>
@@ -616,6 +642,38 @@ const Gallery = () => {
           </div>
         </div>
       </section>
+
+      {/* Before/After Section */}
+      {filteredBeforeAfter.length > 0 && (
+        <section className="section-dark py-12 border-t border-kb-gray-border">
+          <div className="container mx-auto px-4">
+            <h2 className="font-display text-4xl md:text-[48px] text-kb-white text-center mb-12">Before & After</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredBeforeAfter.map((pair) => (
+                <ScrollReveal key={pair.id}>
+                  <div className="space-y-4">
+                    <h3 className="font-heading text-xl text-kb-white text-center">{pair.title}</h3>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="space-y-2">
+                        <div className="aspect-[4/3] overflow-hidden rounded-sm">
+                          <img src={pair.before} alt={`${pair.title} Before`} className="w-full h-full object-cover" />
+                        </div>
+                        <p className="text-sm font-heading text-kb-white text-center">BEFORE</p>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="aspect-[4/3] overflow-hidden rounded-sm">
+                          <img src={pair.after} alt={`${pair.title} After`} className="w-full h-full object-cover" />
+                        </div>
+                        <p className="text-sm font-heading text-kb-white text-center">AFTER</p>
+                      </div>
+                    </div>
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="section-dark py-16 border-t border-kb-gray-border">
