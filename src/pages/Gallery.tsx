@@ -47,20 +47,15 @@ const galleryImages = [
   { src: lawnStriped, alt: "Striped lawn maintenance", category: "Mowing" },
   { src: snowPlows, alt: "Snow plow fleet ready for storm", category: "Snow equipment" },
   { src: mowersFleet, alt: "Professional mower fleet", category: "Mowing" },
-  { src: brushClearing, alt: "Brush clearing project", category: "Forestry and Flail mowing" },
-  { src: excavatorWork, alt: "Excavator work on property", category: "Light Excavation" },
+  { src: brushClearing, alt: "Brush clearing project", category: "Forestry mulching" },
   { src: snowWolf, alt: "SnowWolf commercial equipment", category: "Snow equipment" },
   { src: kbTrailer, alt: "K&B Landscaping trailer", category: "Mowing" },
   { src: catPlow, alt: "CAT skid steer with plow", category: "Snow equipment" },
   { src: kubotaSnowwolf, alt: "Kubota with SnowWolf", category: "Snow equipment" },
-  { src: excavatorLoader, alt: "Excavator and loader", category: "Light Excavation" },
-  { src: greenAvant, alt: "Green Avant loader", category: "Light Excavation" },
   { src: jcbSnowwolf, alt: "JCB with SnowWolf", category: "Snow equipment" },
   { src: jcbSide, alt: "JCB skid steer side view", category: "Snow equipment" },
   { src: teamPhoto, alt: "K&B team with equipment fleet", category: "Mowing" },
   { src: trailerWrap, alt: "K&B branded trailer wrap", category: "Mowing" },
-  { src: kubotaLoader, alt: "Kubota R540 wheel loader", category: "Light Excavation" },
-  { src: yanmarExcavator, alt: "Yanmar excavator on trailer", category: "Light Excavation" },
   { src: mowersLawn, alt: "Full mower fleet lineup on lawn", category: "Mowing" },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7efd2591b1c74492a4bb4c2abe143c85?format=webp&width=800&height=1200",
@@ -298,39 +293,64 @@ const galleryImages = [
     category: "Commercial & Residential Mulch Blowing"
   },
   {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F591532c430d543a7a5c47ff33b363348%2F29a20598f52546838cc69f92f1160533?format=webp&width=800&height=1200",
+    alt: "Wooded yard expansion project with mature trees",
+    category: "Light Excavation & Yard Expansion"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F591532c430d543a7a5c47ff33b363348%2F8789c952dcd8487387db0eca960f1ad6?format=webp&width=800&height=1200",
+    alt: "Cleared yard expansion with excavated soil preparation",
+    category: "Light Excavation & Yard Expansion"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F591532c430d543a7a5c47ff33b363348%2Fa9f48842e7b74a98897b23e8623823da?format=webp&width=800&height=1200",
+    alt: "Overgrown yard area before light excavation",
+    category: "Light Excavation & Yard Expansion"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F591532c430d543a7a5c47ff33b363348%2Fc2e3b325dcf349f7838f80e1efe072fb?format=webp&width=800&height=1200",
+    alt: "Yard expansion clearing with forest backdrop",
+    category: "Light Excavation & Yard Expansion"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F591532c430d543a7a5c47ff33b363348%2Fb7cbe4248b9045a99a0ab5d06f11230c?format=webp&width=800&height=1200",
+    alt: "Residential yard expansion excavation project",
+    category: "Light Excavation & Yard Expansion"
+  },
+  {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F599e90c33ee44be397f66723890b0954?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator removing tree stump",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcc334b53c6b940c2b14afcefd52fe601?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator and Kubota R540 loader",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F6391038eb6f04968a9a21da0113d22b9?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator moving large rocks",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9c282751601d4e1981324f8b27192609?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator loading soil into truck",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fdb197ac1a38e4579b8ebd22512f8c9b2?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator and dump truck on property",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe7a4c9caccd3470fa8b3f1ec8888be1b?format=webp&width=800&height=1200",
     alt: "Kubota loader working on foundation",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd193b332ffdb49e8b8dc1677f98580ab?format=webp&width=800&height=1200",
     alt: "Excavated area for building foundation",
-    category: "Light Excavation"
+    category: "Light Excavation & Yard Expansion"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ff2c05812b9a04c848d6fa0ba39c93b46?format=webp&width=800&height=1200",
@@ -458,7 +478,7 @@ const categories = [
   "all",
   "Spring & Fall Cleanup",
   "Commercial & Residential Mulch Blowing",
-  "Light Excavation",
+  "Light Excavation & Yard Expansion",
   "Forestry mulching",
   "Hardscapes",
   "Plantings and pruning",
