@@ -16,7 +16,7 @@ const serviceImages: Record<string, string> = {
   "landscape-design": lawnPatio,
   "snow-removal": snowPlows,
   "spring-fall-cleanup": brushClearing,
-  "hardscaping": excavatorWork,
+  "hardscaping": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F52915f82b004471eb7983ab03233f525?format=webp&width=800&height=1200",
   "light-excavation": excavatorWork,
   "shrub-tree-trimming": lawnStriped,
   "cobblestone-edging": lawnPatio,
