@@ -158,168 +158,53 @@ const galleryImages = [
     category: "Forestry mulching"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0f73b766519a48ed858fa5d09f854445?format=webp&width=800&height=1200",
-    alt: "Paver walkway and stairs",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0cc805b210d04583b8af2e18e2cabc41?format=webp&width=800&height=1200",
+    alt: "Hardscape excavator loading material",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb3104bbd645045e0a76b7eb2c9776b19?format=webp&width=800&height=1200",
-    alt: "Retaining wall and patio area",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F9225008b67cb4a76ad70edabcaf389a1?format=webp&width=800&height=1200",
+    alt: "Hardscape driveway installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F3db00798dc834e01917f6e785643c01d?format=webp&width=800&height=1200",
-    alt: "Large raised garden bed construction",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F35a6b659bde34dbe8c5869a503309c43?format=webp&width=800&height=1200",
+    alt: "Patio and hardscape preparation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe0994634322a44f3a3d900c696b6d51f?format=webp&width=800&height=1200",
-    alt: "Stone fire pit area with blue chairs",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb4024e845b6748b2b14246cc2076482b?format=webp&width=800&height=1200",
+    alt: "Lakeside paver patio installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F35e7d24c166d48d6ab97235e707ab963?format=webp&width=800&height=1200",
-    alt: "Multi-level retaining wall and steps",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F5175f685ea9c4531ae7b6e8c403a6fa1?format=webp&width=800&height=1200",
+    alt: "Residential paver walkway",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7f8d2fc659c64330a1a45a883ad41fbe?format=webp&width=800&height=1200",
-    alt: "Paver patio in front of shed",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fa60e19b33f854cea88730e51d1471100?format=webp&width=800&height=1200",
+    alt: "Large patio and deck construction",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F8d4c27a43d1149f5855b824c1c735679?format=webp&width=800&height=1200",
-    alt: "Stone retaining wall on slope",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F543ca027b78a4e8d8e14d3075dc4bd43?format=webp&width=800&height=1200",
+    alt: "Playground installation with hardscape",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb632ae1586d642a4840f0dbb33f57b89?format=webp&width=800&height=1200",
-    alt: "Long paver walkway to door",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F339075acae23454ca322dbdd039fbca8?format=webp&width=800&height=1200",
+    alt: "Patio with paver installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F35cc47986a8347888d50f8069c6188e4?format=webp&width=800&height=1200",
-    alt: "Paver walkway alongside pool fence",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fcbfa9de3a26e416b8f86bf5dd46921e1?format=webp&width=800&height=1200",
+    alt: "Residential hardscape with landscape beds",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F38265715c9a0430aaabd57e4e96184a7?format=webp&width=800&height=1200",
-    alt: "Freshly graded soil and retaining wall",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F38d5a7292851439e86b6295bdb2ac828?format=webp&width=800&height=1200",
-    alt: "Large stone patio by lake",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F3ec7c252c33240ea8d5b6b7a6e2f399f?format=webp&width=800&height=1200",
-    alt: "Red brick walkway construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F422947cb709349a9912f197f11f7ae94?format=webp&width=800&height=1200",
-    alt: "Stone steps and walkway along house",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa6e89f999d93464196ecaf20d18cd04b?format=webp&width=800&height=1200",
-    alt: "Red brick walkway leading to equipment",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0a336d723d5045f59e41c338e6b3023b?format=webp&width=800&height=1200",
-    alt: "Paver path leading to garden area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F6855e3328f44493488779fd4c23430d3?format=webp&width=800&height=1200",
-    alt: "Stone retaining wall and graded driveway area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F881464a8d8014ac09460890e3dbcbc5f?format=webp&width=800&height=1200",
-    alt: "Excavator working on retaining wall",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb9a7d13d15b1423e98a659ae646fd251?format=webp&width=800&height=1200",
-    alt: "Stone steps leading down to patio",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F72daa86ee4da4acdbba0c9c200d537f2?format=webp&width=800&height=1200",
-    alt: "Stone fire pit and seating area with walls",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe4786010710a4fb3b81f545a777949b6?format=webp&width=800&height=1200",
-    alt: "Large paver patio area with wall",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcd464427d723416bab49adfc8fd828ad?format=webp&width=800&height=1200",
-    alt: "Large paver patio extension",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fbe2d5e4cddc0430c800444268a6ef9c5?format=webp&width=800&height=1200",
-    alt: "Large paver patio and seating area by pool",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F4cdc8f5e42b24ad6ab6fd52fc82ecf41?format=webp&width=800&height=1200",
-    alt: "Paver walkway and landscape beds",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F07388eba76b64561bc65141ca40a984b?format=webp&width=800&height=1200",
-    alt: "Multi-level stone steps walkway",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fda539ba9b0834d9e9d79a23a32122d3e?format=webp&width=800&height=1200",
-    alt: "Play area with retaining wall and play set",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fbe8117be03f5442b86e6579dd8d0a498?format=webp&width=800&height=1200",
-    alt: "Large rock fire pit under construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F203f339817d947b4832e311531c72a68?format=webp&width=800&height=1200",
-    alt: "Rock fire pit and surrounding gravel area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb3e05ed6786345a682d8197267febd04?format=webp&width=800&height=1200",
-    alt: "Red brick walkway leading to stairs",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9437dc05235b47e29abcddabe1c926f9?format=webp&width=800&height=1200",
-    alt: "Large stone retaining wall and steps",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fef2ac0771bc44a23811a4d9809830c6c?format=webp&width=800&height=1200",
-    alt: "Paver walkway and garden bed with plants",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa9e1f4fea80c4e1fb48e1bfd1dfe62f2?format=webp&width=800&height=1200",
-    alt: "Outdoor water fountain feature with rocks",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F1df366ca74f14dcf9de4027183f08b83?format=webp&width=800&height=1200",
-    alt: "Paver walkway by pool under construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcce7368c7cfa463db56d5ab61b97dd16?format=webp&width=800&height=1200",
-    alt: "Large paver patio area with stone walls",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fc90dd7db9cfe4325b38b38807c60c80e?format=webp&width=800&height=1200",
+    alt: "Completed paver patio project",
     category: "Hardscapes"
   },
   {
