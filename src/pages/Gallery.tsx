@@ -65,47 +65,97 @@ const galleryImages = [
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7efd2591b1c74492a4bb4c2abe143c85?format=webp&width=800&height=1200",
     alt: "Excavator clearing snow and brush",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F14e5175458544bc3aa34805bea5cb68c?format=webp&width=800&height=1200",
     alt: "Overgrown brush before clearing",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fc23fa863ac544f00acb917277df096c1?format=webp&width=800&height=1200",
     alt: "Brush cleared by shed",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe159f39405634072963499149ec5ef57?format=webp&width=800&height=1200",
     alt: "Excavator arm with attachment",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fde08d78d6ff847b490f3696767d9d2d6?format=webp&width=800&height=1200",
     alt: "Cleared field with excavator in background",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ff7e51ff360114626a17d86255a68492c?format=webp&width=800&height=1200",
     alt: "Brush pile and cleared area",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa38ff360d0784f6ca80f6b4096266453?format=webp&width=800&height=1200",
     alt: "View from equipment clearing brush",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd2a1485470d24e0c951fc1df5c66558f?format=webp&width=800&height=1200",
     alt: "Cleared path through trees",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9209c0a8cb4a490eb6b1f793fc77bbc3?format=webp&width=800&height=1200",
     alt: "Green Avant equipment with mower attachment",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F664a5fed9d9d4681ba514db6fd872047?format=webp&width=800&height=1200",
+    alt: "Forestry mulching equipment in action",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F1f357ee601f949fe90a30b9810137e7e?format=webp&width=800&height=1200",
+    alt: "Land clearing with forestry mulcher",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fbdc6fde6a51240699ba7b881ddcb68df?format=webp&width=800&height=1200",
+    alt: "Mulched landscape after clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0db0a9f24dbd42d58890439a563d25ae?format=webp&width=800&height=1200",
+    alt: "Forestry mulching site preparation",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F8dc30133b95b4d578c56bb16c691f7d8?format=webp&width=800&height=1200",
+    alt: "Cleared area with mulch material",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F3dc055fc18574dabb7a6cabcb919ff0e?format=webp&width=800&height=1200",
+    alt: "Overgrown land forestry clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F42db8153b1b54e9f852573d8190bb701?format=webp&width=800&height=1200",
+    alt: "Professional mulching operation",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F1bba7a2716034abb812b4fc373d59b37?format=webp&width=800&height=1200",
+    alt: "Tree grinding and mulching service",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F4673f781514b412daa7a53a82ac5b6c8?format=webp&width=800&height=1200",
+    alt: "Mulch piles from land clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F2f47ce89b3e242d49d44baef9fa5dc9a?format=webp&width=800&height=1200",
+    alt: "Before and after forestry mulching",
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0f73b766519a48ed858fa5d09f854445?format=webp&width=800&height=1200",
@@ -509,7 +559,7 @@ const categories = [
   "Spring & Fall Cleanup",
   "Commercial & Residential Mulch Blowing",
   "Light Excavation",
-  "Forestry and Flail mowing",
+  "Forestry mulching",
   "Hardscapes",
   "Plantings and pruning",
   "Mowing",
