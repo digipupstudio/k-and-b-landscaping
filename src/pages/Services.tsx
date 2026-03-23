@@ -47,7 +47,7 @@ const Services = () => (
           <ScrollReveal key={s.id}>
             <div className={`grid lg:grid-cols-2 gap-10 items-center ${i % 2 === 1 ? "lg:flex-row-reverse" : ""}`}>
               <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                <img src={serviceImages[s.id] || lawnPatio} alt={s.title} className="rounded-sm w-full h-[350px] object-cover" />
+                <img src={serviceImages[s.id] || lawnPatio} alt={s.title} className="rounded-sm w-full h-[450px] object-cover" />
               </div>
               <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                 <h2 className="font-display text-3xl md:text-[44px] text-kb-white leading-tight">{s.title.toUpperCase()}</h2>
